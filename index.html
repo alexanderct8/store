@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+</head>
+<body>
+    <nav class="w-full bg-white fixed z-10">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
+              <button id="btn" type="button" class="inline-flex items-center rounded-md p-2 bg-gray-400 text-white outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="md:flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
+              <a href="/" class="flex flex-shrink-0 items-center">
+                <img class="w-10 h-10 block lg:hidden" src="./image/logo.svg" alt="logo">
+                <img class="w-10 h-10 hidden lg:block" src="./image/logo.svg" alt="logo">
+                <h2 class="text-2xl font-bold text-green-400 pl-2 uppercase">espo</h2>
+              </a>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <a href="#" class="text-gray-600 px-3 py-2 font-semibold text-2xl">INICIO</a>
+                  <a href="#about" class=" text-gray-600 px-3 py-2 font-semibold text-2xl">ABOUT</a>
+                  <a href="#product" class="text-gray-600 px-3 py-2 font-semibold text-2xl">PRODUCT</a>
+                  <a href="#contact" class="text-gray-600 px-3 py-2  font-semibold text-2xl">CONTAC</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden transition duration-700 bg-gray-900" id="mobile-menu">
+          <div class="space-y-1 px-2 pt-2 pb-3 text-center mx-auto  " style="width: max-content;">
+            <a href="/" class="text-gray-300 hover:bg-gray-700  block px-3 py-2 text-xl rounded font-medium">INICIO</a>
+            <a href="#about" class="text-gray-300 hover:bg-gray-700  block px-3 py-2 text-xl rounded font-medium">ABOUT</a>
+            <a href="#product" class="text-gray-300 hover:bg-gray-700  block px-3 py-2 text-xl rounded font-medium">PRODUCT</a>
+            <a href="#contact" class="text-gray-300 hover:bg-gray-700  block px-3 py-2 text-xl rounded font-medium">CONTACT</a>
+          </div>
+        </div>
+    </nav>
+    <div id="" class=" pt-16 md:pt-20">
+        <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col-reverse items-center">
+          <div class="lg:flex-grow md:w-1/2 xl:mx-20 flex flex-col md:mr-4 md:text-left mb-4 md:mb-0 items-center text-center lg:mr-12">
+            <h1 class="lg:text-4xl xl:text-5xl text-2xl mb-4 font-bold text-gray-900">Find the best selection of gifts in watches that we have for you</h1>
+            <p class="md:mb-8 mb-4 xl:font-medium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea nostrum incidunt quam commodi itaque explicabo sit odio necessitatibus libero molestias praesentium dicta autem ipsa corrupti soluta asperiores aperiam, magni consectetur.</p>
+            <div class="flex justify-center">
+              <a href="/" class="inline-flex text-white bg-blue-500 border-0 py-2 px-3 focus:outline-none hover:bg-blue-600 rounded text-lg">Explore Collection</a>
+            </div>
+          </div>
+          <div class=" md:w-1/2 md:h-80 lg:h-full xl:w-2/5 w-full mb-4 md:mb-0">
+            <img class="object-cover object-center md:h-full" src="./image/reloj1.jpg" alt="reloj">
+          </div>
+        </div>
+    </div>
+    <div id="about" class="">
+        <div class="container relative mx-auto flex px-5 py-4 md:flex-row flex-col items-center">
+          <div class="md:h-80 md:w-1/2 xl:h-96 w-full mb-4 md:mb-0">
+            <img class="md:h-full xl:w-full object-cover object-center" src="./image/reloj2.jpg" alt="reloj">
+          </div>
+          <div class=" md:w-1/2 xl:h-72 px-8 py-4 flex flex-col md:absolute md:top-20  md:right-5 lg:right-7 lg:top-32 xl:mt-4 top-72 items-center text-center bg-gray-200">
+            <h1 class="flex justify-center mx-auto sm:text-4xl text-3xl mb-4 md:mb-2 font-medium text-gray-900">About Us</h1>
+            <div class="">
+              <p class="mb-8 md:mb-4 xl:text-xl">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+              <a href="#"><button class="inline-flex xl:mt-8 m-auto justify-center text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Read more</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <section class=" mt-0 md:mt-16">
+        <div class="container mx-auto">
+            <div class=" flex md:flex-row flex-col justify-center gap-4">
+                <div class=" md:w-4/12 lg:w-2/6 flex mx-4 md:p-2">
+                    <div class=" md:w-full mx-auto px-4 border border-gray-600">
+                        <div class="flex items-center p-2 ">
+                          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-400 text-indigo-500 mb-4 p-2">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                          </div>
+                          <h2 class="text-lg text-gray-900 font-bold title-font ml-4 mb-2">Ours Services</h2>
+                        </div>
+                        <p class=" text-medium font-medium mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab iste cumque nobis nihil minus perspiciatis</p>
+                        <div class="flex md:mt-8 mb-2">
+                        <a class="max-w-max text-medium px-4 py-2 font-semibold uppercase border rounded-md" href="#">Explore more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" md:w-3/5 flex flex-wrap mx-4">
+                    <div class="xl:w-1/2 md:w-1/2 flex flex-wrap p-2"> 
+                        <div class="flex flex-col border border-gray-200 p-2">
+                            <div class=" flex flex-row items-center text-indigo-500 mb-2">
+                                <div class="p-1 border rounded-full bg-green-400">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="ml-2">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Amet consectetur adipt</h2>
+                                </div>
+                            </div>
+                            <p class=" text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quam</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/2 md:w-1/2 flex flex-wrap p-2"> 
+                        <div class="flex flex-col border border-gray-200 p-2">
+                            <div class=" flex flex-row items-center text-indigo-500 mb-2">
+                                <div class="p-1 border rounded-full bg-green-400">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="ml-2">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Amet consectetur adipt</h2>
+                                </div>
+                            </div>
+                            <p class=" text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quam</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/2 md:w-1/2 flex flex-wrap p-2"> 
+                        <div class="flex flex-col border border-gray-200 p-2">
+                            <div class=" flex flex-row items-center text-indigo-500 mb-2">
+                                <div class="p-1 border rounded-full bg-green-400">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="ml-2">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Amet consectetur adipt</h2>
+                                </div>
+                            </div>
+                            <p class=" text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quam</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/2 md:w-1/2 flex flex-wrap p-2"> 
+                        <div class="flex flex-col border border-gray-200 p-2">
+                            <div class=" flex flex-row items-center text-indigo-500 mb-2">
+                                <div class="p-1 border rounded-full bg-green-400">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="ml-2">
+                                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Amet consectetur adipt</h2>
+                                </div>
+                            </div>
+                            <p class=" text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product" class="">
+        <div class="container px-5 py-8 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img class="object-cover object-center w-full h-full block" src="./image/reloj2.jpg" alt="">
+              </a>
+              <div class="mt-4">
+                <h2 class="text-gray-900 title-font text-lg font-medium">Lorem, ipsum dolor</h2>
+                <p class="mt-1 font-bold">$24.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img class="object-cover object-center w-full h-full block" src="./image/reloj5.jpg" alt="">
+              </a>
+              <div class="mt-4">
+                <h2 class="text-gray-900 title-font text-lg font-medium">Lorem, ipsum dolor</h2>
+                <p class="mt-1 font-bold">$62.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img class="object-cover object-center w-full h-full block" src="./image/reloj4.jpg" alt="">
+              </a>
+              <div class="mt-4">
+                <h2 class="text-gray-900 title-font text-lg font-medium">Lorem, ipsum dolor</h2>
+                <p class="mt-1 font-bold">$36.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img class="object-cover object-center w-full h-full block" src="./image/reloj3.jpg" alt="">
+              </a>
+              <div class="mt-4">
+                <h2 class="text-gray-900 title-font text-lg font-medium">Lorem, ipsum dolor</h2>
+                <p class="mt-1 font-bold">$50.40</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+          <a href="#" class="flex justify-center max-w-max mx-auto border rounded-md font-bold px-4 py-2 bg-blue-500 text-white">View All</a>
+          </div>
+        </div>
+    </section>
+    <div class=" pt-4 md:pt-12">
+        <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col-reverse items-center">
+          <div class="lg:flex-grow md:w-1/2 xl:mx-20 flex flex-col md:mr-4 md:text-left mb-4 md:mb-0 items-center text-center lg:mr-12">
+            <h1 class="lg:text-4xl xl:text-5xl text-2xl mb-4 font-bold text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ab.</h1>
+            <p class="md:mb-8 mb-4 xl:font-medium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea nostrum incidunt quam commodi itaque explicabo sit odio necessitatibus libero molestias praesentium dicta autem ipsa corrupti soluta asperiores aperiam, magni consectetur.</p>
+            <div class="flex justify-center">
+              <a href="/" class="inline-flex text-white bg-blue-500 border-0 py-2 px-3 focus:outline-none hover:bg-blue-600 rounded font-semibold">Buy Now</a>
+            </div>
+          </div>
+          <div class=" md:w-1/2 md:h-80 lg:h-full xl:w-2/5 w-full mb-4 md:mb-0">
+            <img class="object-cover object-center md:h-full" src="./image/reloj4.jpg" alt="reloj">
+          </div>
+        </div>
+    </div>
+    <section class="mt-8">
+        <div class="container px-5 py-8 mx-auto">
+            <h2></h2>
+          <div class="flex flex-wrap justify-center gap-4">
+            <div class="md:w-2/5 lg:w-1/5 lg:mb-0 mb-6 p-4">
+              <div class="h-full text-center">
+                <img class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./image/person1.jpg" alt="testimonial">
+                <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, molestias aliquam architecto dolores recusandae.</p>
+                <h2 class="text-gray-900 font-medium title-font text-sm uppercase">ipsum consec pisicing</h2>
+              </div>
+            </div>
+            <div class="md:w-2/5 lg:w-1/5 lg:mb-0 mb-6 p-4">
+              <div class="h-full text-center">
+                <img class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./image/person2.jpg" alt="testimonial">
+                <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, molestias aliquam architecto dolores recusandae.</p>
+                <h2 class="text-gray-900 font-medium title-font text-sm uppercase">ipsum consec pisicing</h2>
+              </div>
+            </div>
+            <div class="md:w-2/5 lg:w-1/5 lg:mb-0 p-4">
+              <div class="h-full text-center">
+                <img class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./image/person1.jpg" alt="testimonial">
+                <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, molestias aliquam architecto dolores recusandae.</p>
+                <h2 class="text-gray-900 font-medium title-font text-sm uppercase">ipsum consec pisicing</h2>
+              </div>
+            </div>
+            <div class="md:w-2/5 lg:w-1/5 lg:mb-0 p-4">
+              <div class="h-full text-center">
+                <img class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="./image/person2.jpg" alt="testimonial">
+                <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, molestias aliquam architecto dolores recusandae.</p>
+                <h2 class="text-gray-900 font-medium title-font text-sm uppercase">ipsum consec pisicing</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <div id="contact" class=" relative mb-4">
+        <div class="container px-5 py-4 mx-auto">
+          <div class="flex flex-col text-center w-full mb-4">
+            <h1 class="sm:text-3xl text-2xl font-medium mb-4 text-gray-900 uppercase">Contact Us</h1>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="font-medium text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="font-semibold text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="font-semibold text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button type="submit" class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Send</button>
+              </div>
+              <div class="w-full mt-4">
+                <div class="flex justify-around w-full">
+                  <a href="" class="w-10">
+                    <img src="./image/facebook.svg" alt="">
+                  </a>
+                  <a href="" class="w-10">
+                    <img src="./image/square-instagram.svg" alt="">
+                  </a>
+                  <a href="" class="w-10">
+                    <img src="./image/youtube.svg" alt="">
+                  </a>
+                  <a href="" class="w-10">
+                    <img src="./image/whatsapp.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer class="flex justify-center items-center font-bold text-2xl w-full h-10 bg-gray-900 text-green-400 uppercase"><span>©</span>espo</footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./store.js"></script>
+</body>
+</html>
